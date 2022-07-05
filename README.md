@@ -3,6 +3,19 @@ The Labyrinth Lord Dwarf Character Generator Version 2 is the second iteration o
 
 ------------
 
+A live version of the Labyrinth Lord Dwarf Character Generator Version 2 is available at:
+
+https://www.oldschooladventures.org/ll/classes/dwarf/
+
+-----------
+
+
+Update 1.01: 2022-07-05
+
+Updates to drawf.php, dwarf.css, classDetails.php, weapons.php, and xp.php. A link to the Labyrinth Lord Dwarf Character Generator Version 2 has been added.
+
+
+
 Initial commit: 2022-07-03
 
 The intial commit for the Labyrinth Lord Dwarf Character Generator Version 2.
