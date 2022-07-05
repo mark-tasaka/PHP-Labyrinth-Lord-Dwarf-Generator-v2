@@ -226,6 +226,9 @@
             $strength = $abilityScoreArray[0];
             $dexterity = $abilityScoreArray[1];
             $constitution = $abilityScoreArray[2];
+
+            $constitution = demiHumanScoreMin($constitution);
+
             $intelligence = $abilityScoreArray[3];
             $wisdom = $abilityScoreArray[4];
             $charisma = $abilityScoreArray[5];
@@ -398,7 +401,8 @@
         $saveSpells -= $wisdomMod;
 
         $primeReq = primeReq($strength);
-        $secondAttack = secondAttack($level);
+        $dwarfAbility = dwarfClassAbilities($alignment);
+        $dwarfStronghold = dwarfStronghold($level);
 
         $strengthDescription = strengthModifierDescription($strength);
         $dexterityDescription = dexterityModifierDescription($dexterity);
@@ -973,7 +977,8 @@
         <span id="classAbilities">
             <?php
                 echo $primeReq;
-                echo $secondAttack;
+                echo $dwarfAbility;
+                echo $dwarfStronghold;
             ?>
         </span>
 
